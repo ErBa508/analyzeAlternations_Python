@@ -2,7 +2,7 @@
 #### IMPORTS ####
 #################
 from selectData_lib import *
-
+from timeSeries_lib import *
 #################
 #### MAIN ####
 #################
@@ -30,6 +30,7 @@ def main():
 		#################
 		#### Generate press time series ####
 		#################
+	genTimeSeries(0, ds)	
 
 		#################
 		#### Summarize and visualize time series pre-clean-up ####
