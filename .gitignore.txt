@@ -1,0 +1,15 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+
+# Options for Config file
+# (1) git rm --cached <path> … will cause git to stop tracking that path. 
+#	and add the path to .gitignore
+# (2): git update-index --assume-unchanged config.m
+# Undo by using: git update-index --no-assume-unchanged <file>
+# This approach will cause git to ignore changes in the specified path(s), 
+# regardless of .gitignore. If you pull from a remote and that remote has changes 
+# to this path, git will fail the merge with a conflict and you will need to merge 
+# manually. 
