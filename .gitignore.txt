@@ -3,6 +3,8 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+*.pyc
+
 
 # Options for Config file
 # (1) git rm --cached <path> … will cause git to stop tracking that path. 
