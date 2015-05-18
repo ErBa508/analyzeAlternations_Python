@@ -11,8 +11,6 @@ import matplotlib.pyplot as plt
 
 def genTimeSeries(trialNum, ds):
 	
-
-	
 	# keep startTime at 0 because we need to refer to specific frames that we can only access if time starts at 0
 	startTime = 0
 	endTime = ds.trial_ts[2 * trialNum + 1] # retrieve endTime from array such as [trial1start, trial1end, trial2start, trial2end, etc]
