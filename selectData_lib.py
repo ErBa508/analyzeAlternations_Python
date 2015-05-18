@@ -90,7 +90,7 @@ class DataStruct():
         try:
             data = np.genfromtxt(self.filenamefp, delimiter="\t",                                   # read data file, dtype allows mixed types of data,
             dtype=None, names=True, usecols = range(38))                                            # names reads first row as header, usecols will read just 38 columns
-            print '{0}: eyetracker data (38 colums format)'.format(os.path.split(filename)[1])
+            print '{0}: eyetracker data (38 colums format)'.format(os.path.split(self.filename)[1])
         except ValueError:                                                                          
             try:                                                                                    # if file does not have 38 columns, try 
                 data = np.genfromtxt(self.filenamefp, delimiter="\t", 
